@@ -1,4 +1,4 @@
-baseURL = 'today-we-learn.netlify.app'
+baseURL = 'https://today-we-learn.netlify.app'
 languageCode = 'en-us'
 title = 'Today We Learn'
 theme = "PaperMod"
