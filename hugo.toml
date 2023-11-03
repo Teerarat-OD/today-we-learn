@@ -2,3 +2,28 @@ baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'Today We Learn'
 theme = "PaperMod"
+
+[menu]
+[[menu.main]]
+    name = 'First'
+    pageRef = '/first'
+    weight = 1
+[[menu.main]]
+    name = 'Second'
+    pageRef = '/second'
+    weight = 2
+
+[params]
+  ShowBreadCrumbs = true   
+  [params.homeInfoParams]
+    Title = "Hi opendreamer \U0001F44B"
+    Content = "Welcome to my blog"
+    [[params.socialIcons]]
+    name = "twitter"
+    url = "https://twitter.com/"
+    [[params.socialIcons]]
+    name = "stackoverflow"
+    url = "https://stackoverflow.com"
+    [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/"
